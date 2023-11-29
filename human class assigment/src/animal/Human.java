@@ -6,10 +6,10 @@ public class Human extends Animal implements Thinkable{
 
     private String hobby;
 
-    public Human (String name, int age, String hobby) {
-        this.name = name;
-        this.age = age;
-        this.hobby = hobby;
+    public Human (String getName, int getAge, String Hobby) {
+        getName();
+        getAge();
+
     }
 
 
